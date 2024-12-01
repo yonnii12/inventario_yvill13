@@ -1,0 +1,46 @@
+ID5191,HP Spectre x360,Laptop,1049.06,77
+ID4362,MacBook Air,Laptop,2559.59,47
+ID3737,Dell XPS 13,Laptop,1864.01,82
+ID6573,Lenovo ThinkPad X1,Laptop,1275.73,22
+ID3666,Samsung Odyssey,Monitor,906.0,63
+ID4707,LG UltraWide,Monitor,335.18,51
+ID3506,Dell 24-inch,Monitor,1362.69,6
+ID9234,ASUS VG248,Monitor,1999.77,35
+ID6123,Logitech MX Keys,Teclado,662.22,6
+ID7527,Razer Huntsman,Teclado,2111.24,74
+ID5582,Corsair K95,Teclado,1099.95,61
+ID1790,SteelSeries Apex Pro,Teclado,238.07,63
+ID1609,Logitech MX Master 3,Ratón,1135.5,79
+ID2563,Razer DeathAdder,Ratón,283.38,85
+ID2590,SteelSeries Rival 600,Ratón,1929.86,52
+ID5254,Corsair Dark Core,Ratón,2115.5,14
+ID6925,Sony WH-1000XM4,Auriculares,1167.41,6
+ID7435,Bose QuietComfort 35,Auriculares,2542.46,29
+ID3096,Sennheiser Momentum,Auriculares,841.26,71
+ID3149,JBL Quantum One,Auriculares,543.63,56
+ID2597,NVIDIA RTX 3080,Tarjetas Gráficas,3718.6,10
+ID9815,AMD Radeon RX 6800,Tarjetas Gráficas,2715.47,15
+ID3663,NVIDIA GTX 1660 Ti,Tarjetas Gráficas,3458.12,51
+ID7597,AMD RX 5700 XT,Tarjetas Gráficas,329.23,11
+ID3140,Intel Core i9-13900K,Procesadores,2833.0,55
+ID2097,AMD Ryzen 9 7900X,Procesadores,1413.86,34
+ID2017,Intel Core i7-12700K,Procesadores,1647.58,60
+ID5040,AMD Ryzen 5 5600X,Procesadores,2034.62,21
+ID4437,Corsair Vengeance 16GB,RAM,133.15,30
+ID9007,G.SKILL Ripjaws 32GB,RAM,613.19,19
+ID8161,Kingston HyperX 16GB,RAM,395.69,38
+ID2865,Crucial Ballistix 8GB,RAM,1519.79,27
+ID1066,Seagate 1TB,Discos Duros,773.48,88
+ID2604,Western Digital 2TB,Discos Duros,2601.13,25
+ID8127,Samsung 970 EVO 1TB,Discos Duros,773.82,26
+ID9077,SanDisk 500GB,Discos Duros,50.51,19
+ID8295,Cooler Master Hyper 212,Sistemas de Refrigeración,1524.23,46
+ID9274,NZXT Kraken X73,Sistemas de Refrigeración,196.22,69
+ID1198,Corsair iCUE H150i,Sistemas de Refrigeración,3341.81,79
+ID6509,Thermaltake Floe DX,Sistemas de Refrigeración,2851.01,100
+ID5205,Windows 11 Pro,Software,2895.29,19
+ID7064,Microsoft Office 365,Software,1364.53,35
+ID6429,Adobe Photoshop CC,Software,3681.77,11
+ID3982,Autodesk AutoCAD,Software,1605.78,38
+prubea2,CambioNombre,Cambio,456.0,567
+prueba,pruebaMayor,Mayor,1.31223123E8,13412341
