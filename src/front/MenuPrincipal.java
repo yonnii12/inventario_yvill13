@@ -17,8 +17,8 @@ public class MenuPrincipal {
         int opcion;
 
         do {
-            System.out.println("\nMenú de Inventario");
-            System.out.println("1. Agregar Producto");
+            System.out.println("\n********** Menú de Inventario **********");
+            System.out.println("\n1. Agregar Producto");
             System.out.println("2. Mostrar Productos en pantalla");
             System.out.println("3. Buscar Productos");
             System.out.println("4. Actualizar Producto");

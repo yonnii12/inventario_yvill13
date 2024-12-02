@@ -14,6 +14,11 @@ public class FuncionesBasicas {
 
     // Metodo para agregar un producto
     public void agregarProducto(Productos producto) {
+        // Verificar si ya existe un producto con el mismo ID
+        if (buscarProductoPorId(producto.getIdProducto()) != null) {
+            System.out.println("Error: No se pudo agregar el producto. Ya existe un producto con el ID: " + producto.getIdProducto());
+            return;
+        }
         listaProductos.add(producto);
         System.out.println("    Producto agregado: " + producto);
     }

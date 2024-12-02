@@ -43,4 +43,3 @@ ID7064,Microsoft Office 365,Software,1364.53,35
 ID6429,Adobe Photoshop CC,Software,3681.77,11
 ID3982,Autodesk AutoCAD,Software,1605.78,38
 prubea2,CambioNombre,Cambio,456.0,567
-prueba,pruebaMayor,Mayor,1.31223123E8,13412341
