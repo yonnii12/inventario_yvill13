@@ -55,15 +55,4 @@ public class Productos {
         this.cantidadDisponible = cantidadDisponible;
     }
 
-    public String toString() {
-        return "Producto{" +
-                "id='" + idProducto + '\'' +
-                ", nombre='" + nombreProducto + '\'' +
-                ", categoria='" + categoria + '\'' +
-                ", precio=" + precio +
-                ", cantidad=" + cantidadDisponible +
-                '}';
-    }
-
-
 }

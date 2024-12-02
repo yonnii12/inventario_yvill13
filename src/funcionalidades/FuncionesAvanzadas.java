@@ -27,7 +27,17 @@ public class FuncionesAvanzadas {
                 masCaro = producto;
             }
         }
-        System.out.println("    El producto más caro es: " + masCaro);
+        // Mostrar producto en formato tabla
+        System.out.println("\nEl producto más caro es:");
+        System.out.printf("%-10s %-20s %-15s %-10s %-10s%n", "ID", "Nombre", "Categoría", "Precio", "Cantidad");
+        System.out.println("=".repeat(65));
+        System.out.printf("%-10s %-20s %-15s %-10.2f %-10d%n",
+                masCaro.getIdProducto(),
+                masCaro.getNombreProducto(),
+                masCaro.getCategoria(),
+                masCaro.getPrecio(),
+                masCaro.getCantidadDisponible());
+
         return masCaro;
     }
 
@@ -41,10 +51,13 @@ public class FuncionesAvanzadas {
         for (Productos producto : listaProductos) {
             contador.put(producto.getCategoria(), contador.getOrDefault(producto.getCategoria(), 0) + 1);
         }
+        // Encabezados de la tabla
+        System.out.printf("%-20s %-10s%n", "Categoría", "Cantidad");
+        System.out.println("=".repeat(30));
 
-        System.out.println("Cantidad de productos por categoría:");
+        // Filas de categorías
         for (Map.Entry<String, Integer> entry : contador.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue());
+            System.out.printf("%-20s %-10d%n", entry.getKey(), entry.getValue());
         }
     }
 

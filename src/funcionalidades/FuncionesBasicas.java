@@ -26,12 +26,20 @@ public class FuncionesBasicas {
     // Metodo para mostrar todos los productos
     public void mostrarProductos() {
         if (listaProductos.isEmpty()) {
-            System.out.println("    El inventario está vacío.");
-        } else {
-            System.out.println("\n    Inventario de productos:");
-            for (Productos producto : listaProductos) {
-                System.out.println(producto);
-            }
+            System.out.println("El inventario está vacío.");
+            return;
+        }
+        // Encabezados de la tabla
+        System.out.printf("%-10s %-20s %-15s %-10s %-10s%n", "ID", "Nombre", "Categoría", "Precio", "Cantidad");
+        System.out.println("=".repeat(65));
+        // Filas de productos
+        for (Productos producto : listaProductos) {
+            System.out.printf("%-10s %-20s %-15s %-10.2f %-10d%n",
+                    producto.getIdProducto(),
+                    producto.getNombreProducto(),
+                    producto.getCategoria(),
+                    producto.getPrecio(),
+                    producto.getCantidadDisponible());
         }
     }
 

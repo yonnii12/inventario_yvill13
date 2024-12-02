@@ -32,7 +32,14 @@ public class SubMenuBuscar {
         String id = scanner.nextLine();
         Productos producto = funcionesBasicas.buscarProductoPorId(id);
         if (producto != null) {
-            System.out.println("Producto encontrado: " + producto);
+            System.out.printf("%-10s %-20s %-15s %-10s %-10s%n", "ID", "Nombre", "Categoría", "Precio", "Cantidad");
+            System.out.println("=".repeat(65));
+            System.out.printf("%-10s %-20s %-15s %-10.2f %-10d%n",
+                    producto.getIdProducto(),
+                    producto.getNombreProducto(),
+                    producto.getCategoria(),
+                    producto.getPrecio(),
+                    producto.getCantidadDisponible());
         } else {
             System.out.println("No se encontró ningún producto con ID: " + id);
         }
@@ -43,9 +50,15 @@ public class SubMenuBuscar {
         String nombre = scanner.nextLine();
         List<Productos> productos = funcionesBasicas.buscarProductosPorNombre(nombre);
         if (!productos.isEmpty()) {
-            System.out.println("Productos encontrados:");
+            System.out.printf("%-10s %-20s %-15s %-10s %-10s%n", "ID", "Nombre", "Categoría", "Precio", "Cantidad");
+            System.out.println("=".repeat(65));
             for (Productos producto : productos) {
-                System.out.println(producto);
+                System.out.printf("%-10s %-20s %-15s %-10.2f %-10d%n",
+                        producto.getIdProducto(),
+                        producto.getNombreProducto(),
+                        producto.getCategoria(),
+                        producto.getPrecio(),
+                        producto.getCantidadDisponible());
             }
         } else {
             System.out.println("No se encontraron productos con el nombre: " + nombre);
@@ -57,9 +70,15 @@ public class SubMenuBuscar {
         String categoria = scanner.nextLine();
         List<Productos> productos = funcionesBasicas.buscarProductosPorCategoria(categoria);
         if (!productos.isEmpty()) {
-            System.out.println("Productos encontrados en la categoría " + categoria + ":");
+            System.out.printf("%-10s %-20s %-15s %-10s %-10s%n", "ID", "Nombre", "Categoría", "Precio", "Cantidad");
+            System.out.println("=".repeat(65));
             for (Productos producto : productos) {
-                System.out.println(producto);
+                System.out.printf("%-10s %-20s %-15s %-10.2f %-10d%n",
+                        producto.getIdProducto(),
+                        producto.getNombreProducto(),
+                        producto.getCategoria(),
+                        producto.getPrecio(),
+                        producto.getCantidadDisponible());
             }
         } else {
             System.out.println("No se encontraron productos en la categoría: " + categoria);
